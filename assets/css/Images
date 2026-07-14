@@ -1,0 +1,10 @@
+<div class="logo-section">
+    <img src="assets/images/carebridge-logo.png"
+         alt="CareBridge Logo"
+         class="logo-image">
+
+    <div>
+        <div class="logo">CareBridge</div>
+        <small>Healthcare Staffing & Contracting</small>
+    </div>
+</div>
