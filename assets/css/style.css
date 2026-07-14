@@ -322,3 +322,8 @@ button {
     padding:12px;
     border:none;
 }
+.gold-link {
+    color: #D4AF37;
+    font-weight: bold;
+    text-decoration: none;
+}
