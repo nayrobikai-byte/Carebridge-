@@ -1,0 +1,305 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareBridge | Healthcare Staffing & Contracting</title><link rel="stylesheet" href="assets/css/style.css">
+
+<style>
+    :root {
+        --navy: #0A2342;
+        --teal: #1B998B;
+        --gold: #D4AF37;
+        --white: #FFFFFF;
+        --light: #F5F7FA;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background: var(--white);
+        color: var(--navy);
+        line-height: 1.6;
+    }
+
+    header {
+        background: var(--navy);
+        color: white;
+        padding: 20px 8%;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 28px;
+        font-weight: bold;
+        color: var(--gold);
+    }
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: 600;
+    }
+
+    .hero {
+        background: linear-gradient(rgba(10,35,66,.85), rgba(10,35,66,.85)),
+                    url('https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1600&q=80');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        text-align: center;
+        padding: 120px 8%;
+    }
+
+    .hero h1 {
+        font-size: 52px;
+        margin-bottom: 20px;
+    }
+
+    .hero p {
+        font-size: 20px;
+        max-width: 800px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        display: inline-block;
+        background: var(--gold);
+        color: var(--navy);
+        padding: 14px 28px;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    .btn-secondary {
+        background: var(--teal);
+        color: white;
+    }
+
+    section {
+        padding: 70px 8%;
+    }
+
+    .section-title {
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 36px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        gap: 25px;
+    }
+
+    .card {
+        background: white;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    }
+
+    .card h3 {
+        margin-bottom: 10px;
+        color: var(--teal);
+    }
+
+    .stats {
+        background: var(--light);
+    }
+
+    .stat-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        gap: 20px;
+        text-align: center;
+    }
+
+    .stat-box h2 {
+        color: var(--gold);
+        font-size: 42px;
+    }
+
+    .cta {
+        background: var(--teal);
+        color: white;
+        text-align: center;
+    }
+
+    footer {
+        background: var(--navy);
+        color: white;
+        text-align: center;
+        padding: 25px;
+    }
+
+    @media(max-width:768px) {
+        .navbar {
+            flex-direction: column;
+        }
+
+        .nav-links {
+            margin-top: 15px;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+        }
+    }
+</style>
+
+</head><body><header>
+    <div class="navbar">
+        <div class="logo">CareBridge</div>    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+</header><section class="hero">
+    <h1>Connecting Healthcare Talent With Opportunity</h1><p>
+    CareBridge connects healthcare professionals and healthcare
+    organizations through trusted staffing, recruiting,
+    and workforce solutions.
+</p>
+
+<a href="jobs.html" class="btn">Browse Jobs</a>
+<a href="signup.html" class="btn btn-secondary">Create Account</a>
+
+</section><section>
+    <h2 class="section-title">Healthcare Opportunities</h2><div class="cards">
+
+    <div class="card">
+        <h3>Clinical Positions</h3>
+        <p>
+            RNs, LPNs, CNAs, Physicians,
+            Therapists, Medical Assistants,
+            and Allied Health Professionals.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Non-Clinical Positions</h3>
+        <p>
+            Medical Billing, Coding,
+            Healthcare Administration,
+            Recruiting, Compliance,
+            and Operations.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Travel & Contract Staffing</h3>
+        <p>
+            Travel nursing, local contracts,
+            per diem assignments,
+            and long-term placements.
+        </p>
+    </div>
+
+</div>
+
+</section><section class="stats"><h2 class="section-title">Why CareBridge?</h2>
+
+<div class="stat-grid">
+
+    <div class="stat-box">
+        <h2>24/7</h2>
+        <p>Recruiting Support</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>100%</h2>
+        <p>Credential Tracking</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>500+</h2>
+        <p>Healthcare Roles</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>50+</h2>
+        <p>Partner Facilities</p>
+    </div>
+
+</div>
+
+</section><section><h2 class="section-title">For Employers</h2>
+
+<div class="cards">
+
+    <div class="card">
+        <h3>Post Open Positions</h3>
+        <p>Reach qualified healthcare professionals quickly.</p>
+    </div>
+
+    <div class="card">
+        <h3>Track Applicants</h3>
+        <p>Manage recruiting from one dashboard.</p>
+    </div>
+
+    <div class="card">
+        <h3>Verify Credentials</h3>
+        <p>Review licenses, certifications, and resumes.</p>
+    </div>
+
+</div>
+
+</section><section><h2 class="section-title">For Professionals</h2>
+
+<div class="cards">
+
+    <div class="card">
+        <h3>Create Your Profile</h3>
+        <p>Showcase experience, certifications, and skills.</p>
+    </div>
+
+    <div class="card">
+        <h3>Apply Instantly</h3>
+        <p>Submit applications directly from your dashboard.</p>
+    </div>
+
+    <div class="card">
+        <h3>Manage Credentials</h3>
+        <p>Track license and certification expiration dates.</p>
+    </div>
+
+</div>
+
+</section><section class="cta"><h2>Ready To Get Started?</h2>
+
+<p>
+    Join CareBridge today and connect with healthcare
+    opportunities nationwide.
+</p>
+
+<br>
+
+<a href="signup.html" class="btn">
+    Create Free Account
+</a>
+
+</section><footer>
+    <p>
+        © 2026 CareBridge Healthcare Staffing & Contracting.
+        All Rights Reserved.
+    </p>
+</footer></body>
+</html>
