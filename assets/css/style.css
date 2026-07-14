@@ -219,3 +219,28 @@ footer {
         font-size: 36px;
     }
       }
+.logo-section{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo-image{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+}
+
+.logo{
+    color:#D4AF37;
+    font-size:28px;
+    font-weight:700;
+}
+
+.logo-section small{
+    color:#1B998B;
+    display:block;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:1px;
+}
