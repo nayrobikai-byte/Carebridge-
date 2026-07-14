@@ -1,0 +1,183 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CareBridge Professional Dashboard</title><link rel="stylesheet" href="../assets/css/style.css"><style>
+.dashboard-container{
+    display:flex;
+    min-height:100vh;
+}
+
+.sidebar{
+    width:260px;
+    background:#0A2342;
+    color:white;
+    padding:25px;
+}
+
+.sidebar h2{
+    color:#D4AF37;
+    margin-bottom:30px;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:12px;
+    margin-bottom:10px;
+    border-radius:6px;
+}
+
+.sidebar a:hover{
+    background:#1B998B;
+}
+
+.main-content{
+    flex:1;
+    padding:30px;
+    background:#F5F7FA;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-bottom:30px;
+}
+
+.stat-card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    margin-bottom:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:6px;
+    margin-bottom:15px;
+}
+
+button{
+    background:#D4AF37;
+    color:#0A2342;
+    border:none;
+    padding:12px 20px;
+    border-radius:6px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#0A2342;
+    color:white;
+    padding:12px;
+}
+
+td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+}
+</style></head><body><div class="dashboard-container"><div class="sidebar"><h2>CareBridge</h2><a href="#">Dashboard</a>
+<a href="#">My Profile</a>
+<a href="#">Resume</a>
+<a href="#">Credentials</a>
+<a href="#">Applications</a>
+<a href="#">Interviews</a>
+<a href="#">Timesheets</a>
+<a href="#">Payroll</a>
+<a href="#">Messages</a>
+<a href="#">Settings</a>
+
+</div><div class="main-content"><h1>Professional Dashboard</h1><br><div class="stats"><div class="stat-card">
+<h2>14</h2>
+<p>Applications Submitted</p>
+</div><div class="stat-card">
+<h2>3</h2>
+<p>Interviews Scheduled</p>
+</div><div class="stat-card">
+<h2>2</h2>
+<p>Active Contracts</p>
+</div><div class="stat-card">
+<h2>5</h2>
+<p>Credentials Verified</p>
+</div></div><div class="card"><h2>Professional Profile</h2><br><input type="text" placeholder="Full Name"><input type="email" placeholder="Email Address"><input type="text" placeholder="Professional Title"><input type="text" placeholder="License Number"><input type="text" placeholder="State License"><textarea rows="5" placeholder="Professional Summary"></textarea><button>Update Profile</button>
+
+</div><div class="card"><h2>Resume Upload</h2><br><input type="file"><button>Upload Resume</button>
+
+</div><div class="card"><h2>Credentials & Certifications</h2><br><table><tr>
+<th>Credential</th>
+<th>Status</th>
+<th>Expiration Date</th>
+</tr><tr>
+<td>RN License</td>
+<td>Verified</td>
+<td>05/12/2028</td>
+</tr><tr>
+<td>BLS Certification</td>
+<td>Verified</td>
+<td>08/20/2027</td>
+</tr><tr>
+<td>ACLS Certification</td>
+<td>Pending Review</td>
+<td>11/14/2027</td>
+</tr></table></div><div class="card"><h2>Recent Applications</h2><br><table><tr>
+<th>Position</th>
+<th>Facility</th>
+<th>Status</th>
+</tr><tr>
+<td>Travel RN</td>
+<td>Regional Medical Center</td>
+<td>Interview Scheduled</td>
+</tr><tr>
+<td>ICU RN</td>
+<td>City Hospital</td>
+<td>Application Submitted</td>
+</tr><tr>
+<td>Emergency RN</td>
+<td>Valley Health</td>
+<td>Under Review</td>
+</tr></table></div><div class="card"><h2>Upcoming Interviews</h2><br><table><tr>
+<th>Facility</th>
+<th>Date</th>
+<th>Time</th>
+</tr><tr>
+<td>Regional Medical Center</td>
+<td>08/10/2026</td>
+<td>10:00 AM</td>
+</tr><tr>
+<td>City Hospital</td>
+<td>08/14/2026</td>
+<td>1:30 PM</td>
+</tr></table></div><div class="card"><h2>Timesheet Summary</h2><br><table><tr>
+<th>Week Ending</th>
+<th>Hours</th>
+<th>Status</th>
+</tr><tr>
+<td>07/31/2026</td>
+<td>40</td>
+<td>Approved</td>
+</tr><tr>
+<td>08/07/2026</td>
+<td>36</td>
+<td>Pending Approval</td>
+</tr></table></div></div></div></body>
+</html>
