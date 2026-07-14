@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CareBridge | Healthcare Jobs</title><link rel="stylesheet" href="assets/css/style.css"><style>
+.job-search{
+    background:#F5F7FA;
+    padding:30px;
+    border-radius:10px;
+    margin-bottom:40px;
+}
+
+.search-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.search-grid input,
+.search-grid select{
+    padding:12px;
+    border:1px solid #ddd;
+    border-radius:6px;
+}
+
+.job-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:25px;
+}
+
+.job-card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.job-type{
+    background:#1B998B;
+    color:white;
+    display:inline-block;
+    padding:5px 10px;
+    border-radius:20px;
+    font-size:12px;
+    margin-bottom:10px;
+}
+
+.location{
+    color:#666;
+    margin-bottom:10px;
+}
+
+.salary{
+    color:#0A2342;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+.apply-btn{
+    background:#D4AF37;
+    color:#0A2342;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:6px;
+    font-weight:bold;
+    display:inline-block;
+}
+
+.apply-btn:hover{
+    opacity:.9;
+}
+</style></head><body><header>
+<div class="navbar">
+<div class="logo">CareBridge</div><div class="nav-links">
+<a href="index.html">Home</a>
+<a href="jobs.html">Jobs</a>
+<a href="login.html">Login</a>
+<a href="signup.html">Sign Up</a>
+</div>
+</div>
+</header><section class="container section"><h1 class="section-title">Healthcare Careers</h1><div class="job-search"><h3>Search Opportunities</h3><br><div class="search-grid"><input type="text" placeholder="Job Title"><input type="text" placeholder="Location"><select>
+<option>All Categories</option>
+<option>Registered Nurse</option>
+<option>Licensed Practical Nurse</option>
+<option>Certified Nursing Assistant</option>
+<option>Medical Assistant</option>
+<option>Physical Therapist</option>
+<option>Occupational Therapist</option>
+<option>Respiratory Therapist</option>
+<option>Medical Billing</option>
+<option>Medical Coding</option>
+<option>Healthcare Administration</option>
+</select><select>
+<option>All Job Types</option>
+<option>Full Time</option>
+<option>Part Time</option>
+<option>Contract</option>
+<option>Travel</option>
+<option>Per Diem</option>
+</select></div></div><div class="job-grid"><div class="job-card"><span class="job-type">Travel Contract</span>
+
+<h2>Registered Nurse (RN)</h2><p class="location">📍 Pittsburgh, PA</p><p>
+Seeking experienced Registered Nurses for
+13-week travel assignments in acute care settings.
+</p><p class="salary">$2,400 - $3,000 Weekly</p><a href="login.html" class="apply-btn">
+Apply Now
+</a></div><div class="job-card"><span class="job-type">Full Time</span>
+
+<h2>Medical Assistant</h2><p class="location">📍 San Diego, CA</p><p>
+Support physicians and clinical staff in a
+busy outpatient healthcare facility.
+</p><p class="salary">$22 - $30 Hourly</p><a href="login.html" class="apply-btn">
+Apply Now
+</a></div><div class="job-card"><span class="job-type">Per Diem</span>
+
+<h2>Certified Nursing Assistant (CNA)</h2><p class="location">📍 Pittsburgh, PA</p><p>
+Flexible shifts available in skilled nursing
+and long-term care facilities.
+</p><p class="salary">$20 - $28 Hourly</p><a href="login.html" class="apply-btn">
+Apply Now
+</a></div><div class="job-card"><span class="job-type">Contract</span>
+
+<h2>Medical Billing Specialist</h2><p class="location">📍 Remote</p><p>
+Manage claims processing, reimbursements,
+and revenue cycle workflows.
+</p><p class="salary">$25 - $35 Hourly</p><a href="login.html" class="apply-btn">
+Apply Now
+</a></div><div class="job-card"><span class="job-type">Travel Contract</span>
+
+<h2>Physical Therapist</h2><p class="location">📍 Columbus, OH</p><p>
+Travel opportunity for experienced Physical
+Therapists in rehabilitation facilities.
+</p><p class="salary">$2,200 - $2,800 Weekly</p><a href="login.html" class="apply-btn">
+Apply Now
+</a></div><div class="job-card"><span class="job-type">Full Time</span>
+
+<h2>Healthcare Recruiter</h2><p class="location">📍 Remote</p><p>
+Source, screen, and place healthcare
+professionals across the country.
+</p><p class="salary">$55,000 - $85,000 Annually</p><a href="login.html" class="apply-btn">
+Apply Now
+</a></div></div></section><footer>
+<p>
+© 2026 CareBridge Healthcare Staffing & Contracting
+</p>
+</footer></body>
+</html>
